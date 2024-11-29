@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My project title</title>
-    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+    <title>Random Song Generator</title>
+    <link rel="shortcut icon" type="image/png" href="/assets/music.png">
     <link rel="stylesheet" href="style.css">
     <!-- <script src="CDN library url"></script> -->
+    <script defer src="p5.min.js"></script>
+    <script defer src="p5.sound.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
     <script defer src="main.js"></script>
 </head>
 <body>
-    <h1>Hello world!</h1>
+</h1>
+    <div id="bg">
+        <div class="headline">
+          <ul id="scene">
+            <li class="layer" id="X"><img src ="2017x icon.png"> <h1 class="headline" id="Xtext">-Subterfuge</li>
+            <li class="layer" id="John"><img src ="Evil John icon.png"> <h1 class="headline" id="Johntext">-Body floated towards me</li>
+            <li class="layer" id="Jeffy"><img src ="Jeffy icon.png"> <h1 class="headline" id="Jeffytext">-Butchery</li>
+            <li class="layer" id="Luigikid"><img src ="Luigikid icon.png"> <h1 class="headline" id="Luigikidtext">-Otherside</li>
+            <li class="layer" id="Sally"><img src ="Sally icon.png"> <h1 class="headline" id="Sallytext">-Overthrow</li>
+            </ul>
+      </div>
 </body>
 </html>
